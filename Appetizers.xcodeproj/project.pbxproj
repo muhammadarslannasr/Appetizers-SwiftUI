@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54FC9A902B5FB9C400E37D35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC9A8F2B5FB9C400E37D35 /* User.swift */; };
 		F51F59042B5304D900BF5235 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F59032B5304D900BF5235 /* NetworkManager.swift */; };
 		F51F59062B5306E000BF5235 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F59052B5306E000BF5235 /* APError.swift */; };
 		F51F59082B5315DC00BF5235 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F59072B5315DC00BF5235 /* AppetizerListViewModel.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54FC9A8F2B5FB9C400E37D35 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F51F59032B5304D900BF5235 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F51F59052B5306E000BF5235 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		F51F59072B5315DC00BF5235 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
@@ -90,8 +92,8 @@
 		F54CC4862B5D18A300F1092F /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
-				F55DE1692B525EA600941D84 /* AccountView.swift */,
 				F54CC49B2B5D474400F1092F /* AccountViewModel.swift */,
+				F55DE1692B525EA600941D84 /* AccountView.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				F55DE16D2B526C0300941D84 /* Appetizer.swift */,
+				54FC9A8F2B5FB9C400E37D35 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				F51F59082B5315DC00BF5235 /* AppetizerListViewModel.swift in Sources */,
 				F55DE16A2B525EA600941D84 /* AccountView.swift in Sources */,
 				F55C4DE62B559E1E00061205 /* LoadingView.swift in Sources */,
+				54FC9A902B5FB9C400E37D35 /* User.swift in Sources */,
 				F54CC4982B5D33DC00F1092F /* APButton.swift in Sources */,
 				F55DE15C2B525D8800941D84 /* AppetizerTabView.swift in Sources */,
 				F51F59042B5304D900BF5235 /* NetworkManager.swift in Sources */,
