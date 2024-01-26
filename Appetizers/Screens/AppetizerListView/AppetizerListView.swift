@@ -20,12 +20,14 @@ struct AppetizerListView: View {
                 List(viewModel.appetizers){appetizer in
                     
                     AppetizerListCell(appetizer: appetizer)
+                        .listRowSeparator(.hidden)
                         .onTapGesture {
                             viewModel.selectedAppetizer = appetizer
                             viewModel.isShowingDetail = true
                         }
                 }
                 .navigationTitle("🍟 Appetizers")
+                .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)
             }
             .onAppear{
